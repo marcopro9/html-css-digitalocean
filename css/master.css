@@ -1,0 +1,68 @@
+/* typography start */
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.6rem;
+  font-family:'Roboto', sans-serif;
+}
+/* typography end */
+
+/* general rules start */
+body{
+  padding-top: 70px;
+}
+/* general rules end */
+
+/* header start */
+.ms_nav{
+  background-color: #fff;
+  /* border: none; */
+  height: 70px;
+}
+.ms_menu {
+  margin-top: 10px;
+}
+.ms_menu li{
+  margin-left: -5px;
+}
+.ms_logo{
+  height: 30px;
+  margin-top: 4px;
+}
+.ms_btn_nav{
+  color: #006aff;
+  border: 1px solid #006aff;
+}
+.ms_burger_menu{
+  font-size: 2.3rem;
+  margin-top: 23px;
+  text-align: right;
+}
+/* header end */
+
+/* main start */
+  /* section jumbo start */
+    .ms_jumbo{
+      background-image: url(../img/bg-home-1-d54581d7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .ms_jumbo_text_left h1{
+      color: #fff;
+    }
+    .ms_jumbo_text_left p{
+      color: #bbcdff;
+    }
+    .ms_jumbo_box_right{
+      background-color: #fff;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .ms_blue_h3{
+      color: #006aff;
+      margin-top: 3px;
+    }
+  /* section jumbo end */
+
+/* main end */
