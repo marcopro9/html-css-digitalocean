@@ -17,7 +17,7 @@ body{
 /* header start */
 .ms_nav{
   background-color: #fff;
-  /* border: none; */
+  border: none;
   height: 70px;
 }
 .ms_menu {
@@ -25,6 +25,16 @@ body{
 }
 .ms_menu li{
   margin-left: -5px;
+}
+.ms_links_nav{
+  color: #000;
+}
+.ms_nav .ms_menu > li > .ms_links_nav{
+  color: #000;
+}
+.ms_nav .ms_menu > li > .ms_links_nav:focus, .ms_nav .ms_menu > li > .ms_links_nav:hover {
+  color: #006aff;
+  background-color: transparent;
 }
 .ms_logo{
   height: 30px;
@@ -37,7 +47,6 @@ body{
 .ms_burger_menu{
   font-size: 2.3rem;
   margin-top: 23px;
-  text-align: right;
 }
 /* header end */
 
@@ -47,6 +56,10 @@ body{
       background-image: url(../img/bg-home-1-d54581d7.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      padding: 50px 10px;
+    }
+    .ms_jumbo_text_left{
+      padding: 0 40px 0 0;
     }
     .ms_jumbo_text_left h1{
       color: #fff;
@@ -58,11 +71,66 @@ body{
       background-color: #fff;
       border-radius: 5px;
       text-align: center;
+      margin-top: 5px;
+      padding:20px;
     }
     .ms_blue_h3{
       color: #006aff;
       margin-top: 3px;
     }
+    .ms_form{
+      margin-bottom: 10px;
+    }
+    .ms_input{
+      padding: 20px 0 20px 5px;
+      box-shadow: none;
+      border: 1px solid rgba(204,204,204, .3);
+      font-weight: 500;
+    }
+    .ms_button_blue{
+      width: 100%;
+      background-color: #579aff;
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 10px;
+      border: none;
+      padding: 8px 0;
+    }
+    .ms_button_blue:hover, .ms_button_blue:focus {
+      background-color: #006aff;
+      color: #fff;
+      transition: .3s;
+    }
+    .ms_button{
+      position: relative;
+      width: 100%;
+      font-weight: 500;
+      color: #7b7b7b;
+      margin-bottom: 12px;
+      border: none;
+      padding: 8px 0;
+      -webkit-box-shadow: 1px 1px 1px 1px rgba(207,207,207,1);
+      -moz-box-shadow: 1px 1px 1px 1px rgba(207,207,207,1);
+      box-shadow: 1px 1px 1px 1px rgba(207,207,207,1);
+    }
+    .ms_button .ms_icon_btn{
+      position: absolute;
+      left: 10px;
+      height: 20px;
+    }
+    .ms_jumbo_box_right p{
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    .ms_jumbo_box_right p a{
+      text-decoration: underline;
+    }
   /* section jumbo end */
 
 /* main end */
+
+/* inizio media query xs */
+  @media all and (max-width: 767px;) {
+
+  }
+/* fine media query xs */
