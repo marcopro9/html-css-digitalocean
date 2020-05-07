@@ -6,11 +6,20 @@ body{
   font-size: 1.6rem;
   font-family:'Roboto', sans-serif;
 }
+h3{
+  font-size: 2rem;
+  color: #031c4e;
+}
 /* typography end */
 
 /* general rules start */
 body{
   padding-top: 70px;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 /* general rules end */
 
@@ -31,6 +40,7 @@ body{
 }
 .ms_nav .ms_menu > li > .ms_links_nav{
   color: #000;
+  font-weight: 500;
 }
 .ms_nav .ms_menu > li > .ms_links_nav:focus, .ms_nav .ms_menu > li > .ms_links_nav:hover {
   color: #006aff;
@@ -57,6 +67,7 @@ body{
       background-repeat: no-repeat;
       background-size: cover;
       padding: 50px 10px;
+      margin-bottom: 0;
     }
     .ms_jumbo_text_left{
       padding: 0 40px 0 0;
@@ -127,10 +138,110 @@ body{
     }
   /* section jumbo end */
 
+  /* section clients start */
+    .ms_grayback{
+      background-color: #f3f5f9;
+      padding: 30px 0;
+    }
+    .ms_clients h2{
+      font-size: 1.6rem;
+      color: #6f7b97;
+    }
+    .ms_list_img{
+      padding: 0;
+    }
+    .ms_list_img li{
+      display: inline-block;
+      vertical-align: middle;
+      padding: 20px 10px;
+    }
+    .ms_list_img li img{
+      width: 160px;
+    }
+    .ms_clients a{
+      font-weight: 500;
+    }
+  /* section clients end */
+
+  /* section features start */
+    .ms_features{
+      padding: 60px 0;
+    }
+    .ms_intro{
+      margin-bottom: 70px;
+    }
+    .ms_intro h2{
+      font-size: 3.5rem;
+      color: #031c4e;
+    }
+    .ms_intro p{
+      font-size: 2.2rem;
+      color: #5c6a88;
+    }
+    .ms_container_features{
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .ms_click_list{
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    .ms_click_list li{
+      padding: 10px 0 10px 10px;
+      border-left: 2px solid #ccc;
+    }
+    .ms_click_list li:hover{
+      border-left: 2px solid #006aff;
+    }
+    .ms_click_list li:first-child{
+      border-left: 2px solid #006aff;
+    }
+    .ms_click_list li a{
+      font-size: 2rem;
+      color: #75809a;
+    }
+    .ms_click_list li:first-child a{
+      font-size: 2rem;
+      color: #000;
+    }
+    .ms_click_list li a:hover{
+      color: #000;
+      text-decoration: none;
+    }
+    .ms_click_list li a:focus{
+      color: #000;
+      text-decoration: none;
+    }
+    .ms_features_blocks{
+      width: 50%;
+      height: 200px;
+      padding-right: 5px;
+      float: left;
+    }
+  /* section features end */
 /* main end */
 
 /* inizio media query xs */
-  @media all and (max-width: 767px;) {
-
+  @media all and (max-width: 767px) {
+    /* section features start */
+      .ms_features_blocks{
+        width: 100%;
+        height: 100%;
+      }
+    /* section features end */
   }
 /* fine media query xs */
+
+/* inizio media query sm md */
+  @media all and (min-width: 768px) and (max-width: 1199px) {
+    /* section clients start */
+    .ms_list_img li img{
+      width: 110px;
+    }
+    .ms_list_img li{
+      padding: 18px 3px;
+    }
+    /* section client end */
+  }
+/* fine media query sm md */
