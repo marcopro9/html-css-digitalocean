@@ -1,94 +1,106 @@
 /* typography start */
-html{
-  font-size: 62.5%;
-}
-body{
-  font-size: 1.6rem;
-  font-family:'Roboto', sans-serif;
-}
-h3{
-  font-size: 2rem;
-  color: #031c4e;
-}
-.ms_p_miniblock{
-  color: #5c6a88;
-}
-.ms_intro_white h2{
-  color: #fff;
-  font-size: 3.5rem;
-}
-.ms_intro h2{
-  font-size: 3.5rem;
-  color: #031c4e;
-}
-.ms_intro p{
-  font-size: 2.2rem;
-  color: #5c6a88;
-}
+  html{
+    font-size: 62.5%;
+  }
+  body{
+    font-size: 1.6rem;
+    font-family:'Roboto', sans-serif;
+  }
+  h3{
+    font-size: 2rem;
+    color: #031c4e;
+  }
+  h4{
+    color: #fff;
+  }
+  .ms_p_miniblock{
+    color: #5c6a88;
+  }
+  .ms_intro_white h2{
+    color: #fff;
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+  }
+  .ms_intro h2{
+    font-size: 3.5rem;
+    color: #031c4e;
+  }
+  .ms_grey_text{
+    font-size: 2.2rem;
+    color: #5c6a88;
+  }
+  cite{
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+  }
 /* typography end */
 
 /* general rules start */
-body{
-  padding-top: 70px;
-}
-.clearfix::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-.ms_grayback{
-  background-color: #f3f5f9;
-  padding: 30px 0;
-}
-.ms_section{
-  padding: 60px 0;
-}
-.ms_intro{
-  margin-bottom: 70px;
-}
-.ms_features_blocks{
-  width: 50%;
-  height: 200px;
-  padding-right: 5px;
-  float: left;
-}
+  body{
+    padding-top: 70px;
+  }
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .ms_grayback{
+    background-color: #f3f5f9;
+    padding: 30px 0;
+  }
+  .ms_section{
+    padding: 60px 0;
+  }
+  .ms_intro{
+    margin-bottom: 70px;
+  }
+  .ms_features_blocks{
+    width: 50%;
+    height: 200px;
+    padding-right: 5px;
+    float: left;
+  }
+  ul{
+    padding: 0;
+  }
 /* general rules end */
 
 /* header start */
-.ms_nav{
-  background-color: #fff;
-  border: none;
-  height: 70px;
-}
-.ms_menu {
-  margin-top: 10px;
-}
-.ms_menu li{
-  margin-left: -5px;
-}
-.ms_links_nav{
-  color: #000;
-}
-.ms_nav .ms_menu > li > .ms_links_nav{
-  color: #000;
-  font-weight: 500;
-}
-.ms_nav .ms_menu > li > .ms_links_nav:focus, .ms_nav .ms_menu > li > .ms_links_nav:hover {
-  color: #006aff;
-  background-color: transparent;
-}
-.ms_logo{
-  height: 30px;
-  margin-top: 4px;
-}
-.ms_btn_nav{
-  color: #006aff;
-  border: 1px solid #006aff;
-}
-.ms_burger_menu{
-  font-size: 2.3rem;
-  margin-top: 23px;
-}
+  .ms_nav{
+    background-color: #fff;
+    border: none;
+    height: 70px;
+  }
+  .ms_menu {
+    margin-top: 10px;
+  }
+  .ms_menu li{
+    margin-left: -5px;
+  }
+  .ms_links_nav{
+    color: #000;
+  }
+  .ms_nav .ms_menu > li > .ms_links_nav{
+    color: #000;
+    font-weight: 500;
+  }
+  .ms_nav .ms_menu > li > .ms_links_nav:focus, .ms_nav .ms_menu > li > .ms_links_nav:hover {
+    color: #006aff;
+    background-color: transparent;
+  }
+  .ms_logo{
+    height: 30px;
+    margin-top: 4px;
+  }
+  .ms_button_blue_text{
+    color: #006aff;
+    border: 1px solid #006aff;
+  }
+  .ms_burger_menu{
+    font-size: 2.3rem;
+    margin-top: 23px;
+  }
 /* header end */
 
 /* main start */
@@ -174,9 +186,6 @@ body{
       font-size: 1.6rem;
       color: #6f7b97;
     }
-    .ms_list_img{
-      padding: 0;
-    }
     .ms_list_img li{
       display: inline-block;
       vertical-align: middle;
@@ -197,7 +206,6 @@ body{
     }
     .ms_click_list{
       list-style-type: none;
-      padding: 0;
       margin-bottom: 20px;
     }
     .ms_click_list li{
@@ -267,7 +275,6 @@ body{
     }
     .ms_list_servers{
       margin-top: 10px;
-      padding: 0;
     }
     .ms_list_servers li{
       list-style: none;
@@ -291,13 +298,123 @@ body{
 
   /* section reviews start */
     .ms_review_wrap{
-      width: 500px;
-      padding: 70px 0;
-      margin: 0 auto;
+      width: 550px;
+      padding: 70px 20px;
+      margin: 0 auto 20px;
       background-color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .ms_review_wrap img{
+      padding-bottom: 20px;
+    }
+    .ms_review_container img{
+      display: block;
+      margin: 0 auto;
     }
   /* section reviews end */
 /* main end */
+
+/* footer start */
+  footer{
+    background-color: #031c4e;
+    padding: 70px 0;
+    color: #7a859d;
+    font-weight: 500;
+  }
+  footer img{
+    padding-bottom: 10px;
+  }
+  footer p{
+    margin-bottom: 0;
+  }
+  .ms_darker{
+    color: #5a6887;
+  }
+  .ms_footer_social_list{
+    padding: 0;
+  }
+  .ms_footer_social_list li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 2.2rem;
+  }
+  .ms_footer_social_list li a{
+    color: #7a859d;
+  }
+  .ms_menu_list{
+    list-style-type: none;
+  }
+  .ms_menu_list li{
+    padding: 5px 0;
+  }
+  .ms_menu_list li a{
+    color: #a6adbd;
+  }
+/* footer end */
+
+/* chat start */
+  .ms_chat_box {
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+    text-align: left;
+  }
+  .ms_container_chat{
+    position:relative;
+  }
+  .ms_chat_box_message {
+    position: absolute;
+    bottom: 20px;
+    right: 130px;
+    padding: 10px;
+    width: 300px;
+    color: #031c4e;
+    font-size: 1.1em;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .ms_chat_box_message p {
+    margin: 0;
+  }
+  .ms_chat_box_message i {
+    position: absolute;
+    bottom: 2px;
+    right: -12px;
+    color: #fff;
+    font-size: 2.5em;
+  }
+  .ms_chat_box_icon_wrap{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+  }
+  .ms_chat_box_icon {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    background-color: #006aff;
+    border-radius: 5px;
+  }
+  .ms_chat_box_icon img {
+    height: 50px;
+  }
+  .ms_chat_box_message_number{
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    width: 30px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    background-color: red;
+    border: 5px solid #fff;
+    border-radius: 50%;
+  }
+/* chat ends*/
 
 /* inizio media query xs */
   @media all and (max-width: 767px) {
@@ -313,6 +430,22 @@ body{
         width: 350px;
       }
     /* section developers end */
+
+    /* section reviews start */
+      .ms_review_wrap{
+        width: 300px;
+      }
+      .ms_review_wrap img{
+        width: 250px;
+        padding-bottom: 20px;
+      }
+    /* section reviews end */
+
+    /* chat start */
+    .ms_chat_box_message {
+      width: 200px;
+    }
+    /* chat end */
   }
 /* fine media query xs */
 
