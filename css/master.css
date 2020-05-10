@@ -55,12 +55,6 @@
   .ms_intro{
     margin-bottom: 70px;
   }
-  .ms_features_blocks{
-    width: 50%;
-    height: 200px;
-    padding-right: 5px;
-    float: left;
-  }
   ul{
     padding: 0;
   }
@@ -234,6 +228,12 @@
       color: #000;
       text-decoration: none;
     }
+    .ms_features_blocks{
+      width: 50%;
+      height: 200px;
+      padding-right: 5px;
+      float: left;
+    }
   /* section features end */
 
   /* section for developers start */
@@ -267,7 +267,7 @@
 
   /* section servers start */
     .ms_blue_gradient{
-      background: rgb(0,22,110);
+      background: #00166e;
       background: -moz-linear-gradient(0deg, rgba(0,22,110,1) 0%, rgba(0,30,153,1) 0%, rgba(0,72,197,1) 100%);
       background: -webkit-linear-gradient(0deg, rgba(0,22,110,1) 0%, rgba(0,30,153,1) 0%, rgba(0,72,197,1) 100%);
       background: linear-gradient(0deg, rgba(0,22,110,1) 0%, rgba(0,30,153,1) 0%, rgba(0,72,197,1) 100%);
@@ -449,7 +449,7 @@
   }
 /* fine media query xs */
 
-/* inizio media query sm md */
+/* inizio media query sm + md */
   @media all and (min-width: 768px) and (max-width: 1199px) {
     /* section clients start */
       .ms_list_img li img{
